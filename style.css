@@ -1,0 +1,204 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #e1ecf5; 
+    text-align: center;
+}
+
+/* STYLE TEXT */
+.title{
+  font-family: Georgia;
+  color: #181d5d;
+  
+  padding-bottom: .5em;
+  border-bottom-style: double;
+  padding-top: 1em;
+}
+
+.text{
+  font-family: Times;
+  font-size: 22px;
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 1em;
+}
+
+#text-1{
+  font-family: Times;
+  font-size: 22px;
+  font-weight: 550;
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  border-bottom-style: double;
+}
+
+#story{
+  font-family: Times;
+  font-size: 22px;
+  font-weight: 550;
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 1em;
+}
+
+.math{  
+  font-family: Times;
+  font-size: 22px;
+  text-align: left;
+  
+  margin-left: 15%;
+  padding-bottom: 5em;
+}
+
+#fact{
+  font-family: 'Times New Roman', Times, serif;
+  color: #181d5d;
+  font-weight: bolder;
+  padding-bottom: 1em;
+  font-size: 26px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.attribution {
+  font-size: 16px;
+  padding-bottom: 1em;
+  font-family: times;
+}
+
+/* STYLE IMAGES */
+.image{
+  max-width: 18%;
+  max-height: auto;
+  margin-top: 3%;
+  border: 5px solid #1cb4ce;
+}
+
+.women{
+  max-width: 15%;
+  max-height: auto;
+  border: 5px solid #1cb4ce;
+  float: right;
+  margin-right: 15%;
+  }
+
+/* STYLE NAV BAR */
+ul {
+  list-style-type: none;
+  background-color: #1cb4ce;
+  overflow: hidden;
+  padding: .7em;
+  text-align: center;
+}
+
+li{
+  display: inline;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+  padding: 1em;
+  font-weight: bold;
+}
+
+li a:hover 
+{
+  background-color: #181d5d;
+}
+
+/* STYLE BUTTONS */
+#myButton{
+  background: #ffffff;
+  border-color: #1cb4ce;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: #181d5d;
+  font-size: 18px;
+  font-family: "times new roman";
+  font-weight: bold;
+}
+
+#factButton{
+  background: #ffffff;
+  border-color: #1cb4ce;
+
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+  
+  color: #181d5d;
+  font-size: 20px;
+  font-family: "times new roman";
+  font-weight: bold;
+}
+
+/* STYLE PERSONALIZE IT KEY FEATURE  */
+#secret{
+  font-family: Times;
+  font-size: 22px;
+  font-weight: 550;
+  
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 1em;
+  
+  color: #ffffff;
+}
+
+#stemName{
+  font-family: Times;
+  font-size: 18px;
+}
+
+#stemStory{
+  font-family: Times;
+  font-size: 18px;
+}
+
+.boxSecret{
+  background: #181d5d;
+
+  margin-left: 20%;
+  margin-right: 20%;
+
+  font-family: Times;
+  font-size: 20px;
+  color: #ffffff;
+
+  border: 5px solid #1cb4ce;
+}
+
+.scriptItem{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  margin-right: 10px;
+
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input{
+  border-style: none;
+  length: 40%;
+}
+
